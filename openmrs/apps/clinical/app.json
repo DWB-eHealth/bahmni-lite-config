@@ -84,7 +84,10 @@
             "Posture": {
                 "buttonSelect": true
             },
-            "P/A Presenting Part": {
+            "NCD Follow-up visit":{
+		"allowAddMore": true
+	    },
+	    "P/A Presenting Part": {
                 "multiSelect": true
             },
             "FHS": {
@@ -108,9 +111,74 @@
             "Coded3": {
                 "multiSelect": true
             },
-            "Image": {
+	   "Diagnosis list":{
+		"dropdown": true
+	  }, 
+          "Diagnosis block":{
+                "allowAddMore": true
+          },
+	  "Complications block":{
+                "allowAddMore": true
+           },
+           "Complications List":{
+                "dropdown": true
+          },
+          "Referral Out block":{
+                "allowAddMore": true
+           },
+           "Referral Out List":{
+                "dropdown": true
+          },
+
+
+	  "Observed complication 1":{
+	  	"dropdown":true
+	  },
+	  "Observed complications":{
+                "allowAddMore":true
+          },
+	  "Test Name": {
+		"dropdown": true,
+		 "conciseText": true
+            },
+          "Required Tests":{
+		"allowAddMore":true
+		},
+
+	   "Image": {
                 "allowAddMore": true
             },
+	    "Date":{
+		"allowFutureDates":true
+	    },
+	    "Fasting Glucose":{
+		"isTabular":true
+	    },
+	    "Random Glucose":{
+                "isTabular":true
+            },
+            "2hr post-prandial glucose":{
+                "isTabular":true
+            },
+	    "2hr post-prandial glucose - mmol / L":{
+		"disableAddNotes":true
+	    },
+  	    "2hr post-prandial glucose - mg/ dL":{
+                "disableAddNotes":true
+            },
+            "Random glucose - mmol / L":{
+                "disableAddNotes":true
+            },
+	    "Random glucose - mg / dL":{
+                "disableAddNotes":true
+            },
+	    "Fasting glucose - mg/dL":{
+                "disableAddNotes":true
+            },
+	    "Fasting glucose - mmol / L":{
+                "disableAddNotes":true
+            },
+ 
             "Gynaecology, Gravida": {
                 "stepper": true
             },

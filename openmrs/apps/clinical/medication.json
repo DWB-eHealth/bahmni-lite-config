@@ -91,10 +91,6 @@
           "Syrup": {
             "doseUnits": "ml",
             "route": "Oral"
-          },
-          "Tablet": {
-            "doseUnits": "Tablet(s)",
-            "route": "Oral"
           }
         }
       }
